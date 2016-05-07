@@ -1,0 +1,27 @@
+{
+  "name": "msm",
+  "version": "0.0.0",
+  "description": "A tool for managing microservices",
+  "main": "app.js",
+  "scripts": {
+    "test": "tape tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wblankenship"
+  },
+  "keywords": [
+    "microservice",
+    "cli"
+  ],
+  "author": "William Blankenship <william.jblankenship@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fstream": "^1.0.8",
+    "npmlog": "^1.2.1",
+    "request": "^2.64.0",
+    "tar": "^2.2.1",
+    "url-join": "0.0.1",
+    "yargs": "^3.26.0"
+  }
+}
